@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
-<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="0626_MultiCatalog_Test" storedLogicExternal="true" deployThreshold="stopOnError" runtimeCredentials="false" multiSchema="true" multiCatalog="true" dbSchemaDefinition="project" schemaSelectionStep="REF_0626" trackingSchema="SOURCE_0626__CAT_1.TRACKING_SCHEMA" enableRowCount="true">
-  <dbDefs xsi:type="dbproject:SqlServerDbDef" name="REF_0626" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" hostname="localhost" port="1433" username="intuser" password="aW50dXNlcjcz" integratedSecurity="false" applicationName="Datical DB"/>
-  <plans name="0626_MultiCatalog_Test" databaseDefs="//@dbDefs[name='REF_0626']"/>
+<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="0626_MultiCatalog_Test" storedLogicExternal="true" deployThreshold="stopOnError" runtimeCredentials="false" multiSchema="true" multiCatalog="true" dbSchemaDefinition="project" schemaSelectionStep="REF" trackingSchema="SOURCE_0626__CAT_1.TRACKING_SCHEMA" enableRowCount="true">
+  <dbDefs xsi:type="dbproject:SqlServerDbDef" name="REF" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" hostname="localhost" port="1433" username="intuser" password="aW50dXNlcjcz" integratedSecurity="false" applicationName="Datical DB"/>
+  <plans name="0626_MultiCatalog_Test" databaseDefs="//@dbDefs[name='REF']"/>
   <changelog href="platform:/resource/0626_MultiCatalog_Test/Changelog/changelog.xml#//@databaseChangeLog"/>
   <schemas name="SOURCE_0626__CAT_1.SCHEMA_A"/>
   <schemas name="SOURCE_0626__CAT_1.SCHEMA_B"/>
