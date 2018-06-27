@@ -93,4 +93,8 @@
             <column name="City" type="varchar(255)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="6426f386d1fd9c977ca80a1a35e030a8" author="kristyldatical" created="2018-06-27 16:14-0500" datical:origFileName="create_C1_to_C2_function.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180627161434691_create_C1_to_C2_function" labels="create_C1_to_C2_function.sql">
+        <storedlogic:createFunction catalogName="SOURCE_0626__CAT_1" functionName="COUNT_FUNC" path="function/20180627161434691_create_C1_to_C2_function.sql" replaceIfExists="true" schemaName="SCHEMA_A"/>
+        <comment>committing function</comment>
+    </changeSet>
 </databaseChangeLog>
