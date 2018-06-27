@@ -4,4 +4,8 @@
         <appdba:sqlcmd path="sql/20180626160036907_create_table.sql" removeOuts="First"/>
         <comment>sql_direct #1</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="97ce0fec0f0e0be8a63bfad9d3874382" author="kristyldatical" created="2018-06-26 21:07-0500" datical:origFileName="create_table_CAT-2.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180626210736472_create_table_CAT-2" labels="create_table_CAT-2.sql">
+        <appdba:sqlcmd path="sql/20180626210736472_create_table_CAT-2.sql" removeOuts="First"/>
+        <comment>sql_direct #2</comment>
+    </changeSet>
 </databaseChangeLog>
