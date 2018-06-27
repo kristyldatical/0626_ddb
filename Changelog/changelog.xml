@@ -12,4 +12,17 @@
         <appdba:sqlcmd path="data_dml/201806270915197_insert_CAT-1.sql" removeOuts="First"/>
         <comment>data_dml #1</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="34b03e471e0b4ee8efc89738a3c497ce" author="datical (generated)" created="2018-06-27 11:53-0500" datical:origFileName="create_table_0627_2.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="03ot-1 (createTable tableName=Users_0627_2)" labels="create_table_0627_2.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable catalogName="SOURCE_0626__CAT_1" schemaName="SCHEMA_A" tableName="Users_0627_2">
+            <column name="User_Id" type="int">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LastName" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FirstName" type="varchar(255)"/>
+            <column name="Address" type="varchar(255)"/>
+            <column name="City" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
