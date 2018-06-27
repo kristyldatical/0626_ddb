@@ -80,4 +80,17 @@
         <appdba:sqlcmd path="data_dml/20180627133939315_insert_CAT-2_S1.sql" removeOuts="First"/>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="6169408ee811819d93775b8d7b24ba03" author="datical (generated)" created="2018-06-27 14:22-0500" datical:origFileName="create_table_CAT2-S2-ddl-fully-qualified-noMS.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="b6rj-1 (createTable tableName=Users_Cat2_retest_schema2)" labels="create_table_cat2-s2-ddl-fully-qualified-noms.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable catalogName="SOURCE_0626__CAT_2" schemaName="SCHEMA_2" tableName="Users_Cat2_retest_schema2">
+            <column name="User_Id" type="int">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LastName" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FirstName" type="varchar(255)"/>
+            <column name="Address" type="varchar(255)"/>
+            <column name="City" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
