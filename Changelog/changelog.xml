@@ -42,4 +42,8 @@
         <appdba:sqlcmd path="sql/20180627130002957_create_table_CAT1_SA.sql" removeOuts="First"/>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="ac2cbd5b6c99b2df826bf3cc9e5a4e05" author="kristyldatical" created="2018-06-27 13:13-0500" datical:origFileName="insert_CAT-1_SA.sql" datical:origFilePath="data_dml" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180627131328107_insert_CAT-1_SA" labels="insert_CAT-1_SA.sql">
+        <appdba:sqlcmd path="data_dml/20180627131328107_insert_CAT-1_SA.sql" removeOuts="First"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
