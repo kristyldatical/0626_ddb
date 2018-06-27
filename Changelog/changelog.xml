@@ -72,4 +72,8 @@
             <column name="City" type="varchar(255)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="3c410f81fcbc529bd9018c9210abf2cc" author="kristyldatical" created="2018-06-27 13:32-0500" datical:origFileName="create_table_CAT2-S2-sqldirect-fully-qualified.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="2018062713324655_create_table_CAT2-S2-sqldirect-fully-qualified" labels="create_table_CAT2-S2-sqldirect-fully-qualified.sql">
+        <appdba:sqlcmd path="sql/2018062713324655_create_table_CAT2-S2-sqldirect-fully-qualified.sql" removeOuts="First"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
