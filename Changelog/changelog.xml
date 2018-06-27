@@ -38,4 +38,8 @@
             <column name="City" type="varchar(255)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="8374c41f279d04006068168654ab54da" author="kristyldatical" created="2018-06-27 13:00-0500" datical:origFileName="create_table_CAT1_SA.sql" datical:origFilePath="sql_direct" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180627130002957_create_table_CAT1_SA" labels="create_table_CAT1_SA.sql">
+        <appdba:sqlcmd path="sql/20180627130002957_create_table_CAT1_SA.sql" removeOuts="First"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
