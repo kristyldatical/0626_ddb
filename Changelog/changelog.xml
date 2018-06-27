@@ -76,4 +76,8 @@
         <appdba:sqlcmd path="sql/2018062713324655_create_table_CAT2-S2-sqldirect-fully-qualified.sql" removeOuts="First"/>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="2b83275c1411fef0cc7a3109e6ebaa47" author="kristyldatical" created="2018-06-27 13:39-0500" datical:origFileName="insert_CAT-2_S1.sql" datical:origFilePath="data_dml" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180627133939315_insert_CAT-2_S1" labels="insert_CAT-2_S1.sql">
+        <appdba:sqlcmd path="data_dml/20180627133939315_insert_CAT-2_S1.sql" removeOuts="First"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
