@@ -59,4 +59,17 @@
             <column name="City" type="varchar(255)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="7ca7ff63c905682c8ab321557386d8c7" author="datical (generated)" created="2018-06-27 13:27-0500" datical:origFileName="create_table_CAT1-SB-fully-qualified.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="cq8b-1 (createTable tableName=Users_Cat1_SB)" labels="create_table_cat1-sb-fully-qualified.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable catalogName="SOURCE_0626__CAT_1" schemaName="SCHEMA_B" tableName="Users_Cat1_SB">
+            <column name="User_Id" type="int">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LastName" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FirstName" type="varchar(255)"/>
+            <column name="Address" type="varchar(255)"/>
+            <column name="City" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
