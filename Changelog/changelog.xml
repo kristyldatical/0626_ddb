@@ -8,4 +8,8 @@
         <appdba:sqlcmd path="sql/20180626210736472_create_table_CAT-2.sql" removeOuts="First"/>
         <comment>sql_direct #2</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="f91f22d700f4f792869e024a81cac1a6" author="kristyldatical" created="2018-06-27 09:15-0500" datical:origFileName="insert_CAT-1.sql" datical:origFilePath="data_dml" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="201806270915197_insert_CAT-1" labels="insert_CAT-1.sql">
+        <appdba:sqlcmd path="data_dml/201806270915197_insert_CAT-1.sql" removeOuts="First"/>
+        <comment>data_dml #1</comment>
+    </changeSet>
 </databaseChangeLog>
