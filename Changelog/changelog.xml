@@ -135,4 +135,8 @@
         <storedlogic:createTrigger catalogName="SOURCE_0626__CAT_2" dbms="mssql" disabled="false" path="trigger/20180628152648627_mssql_trigger.sql" replaceIfExists="true" schemaName="SCHEMA_1" tableName="Users_Cat2_S1" triggerName="TRIGGER_0628"/>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="c16f547116ea2a38514ed5c9d83789ce" author="kristyldatical" created="2018-06-28 16:11-0500" datical:origFileName="insert_CAT-2_S1_0628.sql" datical:origFilePath="data_dml" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180628161155482_insert_CAT-2_S1_0628" labels="commit-label-test-0628-1,insert_CAT-2_S1_0628.sql">
+        <appdba:sqlcmd path="data_dml/20180628161155482_insert_CAT-2_S1_0628.sql" removeOuts="First"/>
+        <comment>committing [commit-label-test-0628-1]</comment>
+    </changeSet>
 </databaseChangeLog>
