@@ -139,4 +139,8 @@
         <appdba:sqlcmd path="data_dml/20180628161155482_insert_CAT-2_S1_0628.sql" removeOuts="First"/>
         <comment>committing [commit-label-test-0628-1]</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="271df2dad1febd3dba78585a2061fa74" author="kristyldatical" created="2018-06-28 16:15-0500" datical:origFileName="insert_CAT-1_0628.sql" datical:origFilePath="data_dml" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180628161529301_insert_CAT-1_0628" labels="KG-label-test-0628-2,insert_CAT-1_0628.sql">
+        <appdba:sqlcmd path="data_dml/20180628161529301_insert_CAT-1_0628.sql" removeOuts="First"/>
+        <comment>committing [KG-label-test-0628-2]</comment>
+    </changeSet>
 </databaseChangeLog>
