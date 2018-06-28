@@ -131,4 +131,8 @@
         <createProcedure catalogName="SOURCE_0626__CAT_2" path="procedure/20180628135322727_mssql_CAT1_CAT2_proc.sql" procedureName="PROC_CAT2_S2" replaceIfExists="true" schemaName="SCHEMA_2"/>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="e2968b12a2b926f1b373cb221a1dcbf9" author="kristyldatical" created="2018-06-28 15:26-0500" datical:origFileName="mssql_trigger.sql" datical:origFilePath="trigger" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180628152648627_mssql_trigger" labels="mssql_trigger.sql">
+        <storedlogic:createTrigger catalogName="SOURCE_0626__CAT_2" dbms="mssql" disabled="false" path="trigger/20180628152648627_mssql_trigger.sql" replaceIfExists="true" schemaName="SCHEMA_1" tableName="Users_Cat2_S1" triggerName="TRIGGER_0628"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
