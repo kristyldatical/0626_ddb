@@ -127,4 +127,8 @@
             <column name="City" type="varchar(255)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="88f356aea2b9b856a38353e517737f84" author="kristyldatical" created="2018-06-28 13:53-0500" datical:origFileName="mssql_CAT1_CAT2_proc.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180628135322727_mssql_CAT1_CAT2_proc" labels="mssql_CAT1_CAT2_proc.sql">
+        <createProcedure catalogName="SOURCE_0626__CAT_2" path="procedure/20180628135322727_mssql_CAT1_CAT2_proc.sql" procedureName="PROC_CAT2_S2" replaceIfExists="true" schemaName="SCHEMA_2"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
