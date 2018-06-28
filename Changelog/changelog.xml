@@ -101,4 +101,30 @@
         <storedlogic:createFunction catalogName="SOURCE_0626__CAT_1" functionName="COUNT_FUNC_TWO" path="function/20180628113234646_create_C1_to_C2_function - Fully qualified name.sql" replaceIfExists="true" schemaName="SCHEMA_A"/>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="6ed5778a24c5b215720f1977f9e8dc6f" author="datical (generated)" created="2018-06-28 12:25-0500" datical:origFileName="create_table_CAT1_and_CAT2.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="kh9b-1 (createTable tableName=Users_628)" labels="create_table_cat1_and_cat2.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable catalogName="SOURCE_0626__CAT_1" schemaName="SCHEMA_A" tableName="Users_628">
+            <column name="User_Id" type="int">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LastName" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FirstName" type="varchar(255)"/>
+            <column name="Address" type="varchar(255)"/>
+            <column name="City" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet appdba:scriptChecksum="6ed5778a24c5b215720f1977f9e8dc6f" author="datical (generated)" created="2018-06-28 12:25-0500" datical:origFileName="create_table_CAT1_and_CAT2.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="kh9b-2 (createTable tableName=Users_628)" labels="create_table_cat1_and_cat2.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable catalogName="SOURCE_0626__CAT_2" schemaName="SCHEMA_1" tableName="Users_628">
+            <column name="User_Id" type="int">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LastName" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FirstName" type="varchar(255)"/>
+            <column name="Address" type="varchar(255)"/>
+            <column name="City" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
