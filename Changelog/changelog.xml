@@ -97,4 +97,8 @@
         <storedlogic:createFunction catalogName="SOURCE_0626__CAT_1" functionName="COUNT_FUNC" path="function/20180627161434691_create_C1_to_C2_function.sql" replaceIfExists="true" schemaName="SCHEMA_A"/>
         <comment>committing function</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="5e87f818f5284ceb6bcc5640c403e482" author="kristyldatical" created="2018-06-28 11:32-0500" datical:origFileName="create_C1_to_C2_function - Fully qualified name.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180628113234646_create_C1_to_C2_function - Fully qualified name" labels="create_C1_to_C2_function - Fully qualified name.sql">
+        <storedlogic:createFunction catalogName="SOURCE_0626__CAT_1" functionName="COUNT_FUNC_TWO" path="function/20180628113234646_create_C1_to_C2_function - Fully qualified name.sql" replaceIfExists="true" schemaName="SCHEMA_A"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
