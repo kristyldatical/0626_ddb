@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="0626_MultiCatalog_Test" storedLogicExternal="true" deployThreshold="stopOnError" runtimeCredentials="false" multiSchema="true" dbSchemaDefinition="project" schemaSelectionStep="REF" trackingSchema="SOURCE_0626__CAT_1.TRACKING_SCHEMA" enableRowCount="true" multiCatalog="true">
-  <dbDefs xsi:type="dbproject:SqlServerDbDef" name="REF" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" hostname="localhost" port="1433" username="intuser" password="aW50dXNlcjcz" contexts="" label="Step-Label-KG" integratedSecurity="false" applicationName="Datical DB" databaseName="SOURCE_0626__CAT_1"/>
+  <dbDefs xsi:type="dbproject:SqlServerDbDef" name="REF" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" hostname="localhost" port="1433" username="intuser" password="aW50dXNlcjcz" contexts="" labels="Step-Label-KG" integratedSecurity="false" applicationName="Datical DB" databaseName="SOURCE_0626__CAT_1"/>
   <plans name="0626_MultiCatalog_Test" databaseDefs="//@dbDefs[name='REF']"/>
   <changelog href="platform:/resource/0626_MultiCatalog_Test/Changelog/changelog.xml#//@databaseChangeLog"/>
   <schemas name="SOURCE_0626__CAT_1.SCHEMA_A"/>
