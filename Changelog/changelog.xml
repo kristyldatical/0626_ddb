@@ -143,4 +143,8 @@
         <appdba:sqlcmd path="data_dml/20180628161529301_insert_CAT-1_0628.sql" removeOuts="First"/>
         <comment>committing [KG-label-test-0628-2]</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="f775d464d5c0d8eddc5c55187f8fdd0c" author="kristyldatical" created="2018-06-29 12:17-0500" datical:origFileName="mssql_cross-catalog-view.sql" datical:origFilePath="view" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180629121754329_mssql_cross-catalog-view" labels="commitviewlabel,commitviewlabel-2,Step-Label-KG,mssql_cross-catalog-view.sql">
+        <createView catalogName="SOURCE_0626__CAT_1" fullDefinition="true" path="view/20180629121754329_mssql_cross-catalog-view.sql" replaceIfExists="true" schemaName="SCHEMA_B" viewName="VIEW_0629"/>
+        <comment>Test Views [commit view label]</comment>
+    </changeSet>
 </databaseChangeLog>
