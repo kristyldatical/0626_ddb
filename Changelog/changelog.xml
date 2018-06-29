@@ -147,4 +147,17 @@
         <createView catalogName="SOURCE_0626__CAT_1" fullDefinition="true" path="view/20180629121754329_mssql_cross-catalog-view.sql" replaceIfExists="true" schemaName="SCHEMA_B" viewName="VIEW_0629"/>
         <comment>Test Views [commit view label]</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="ca238b6978f8221600f62a18325eddbe" author="datical (generated)" created="2018-06-29 14:04-0500" datical:origFileName="create_table_0629.sql" datical:origFilePath="ddl" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="jp7b-1 (createTable tableName=Users_0629)" labels="step-label-kg, 0629, create_table_0629.sql" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable catalogName="SOURCE_0626__CAT_1" schemaName="SCHEMA_A" tableName="Users_0629">
+            <column name="User_Id" type="int">
+                <constraints nullable="false"/>
+            </column>
+            <column name="LastName" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="FirstName" type="varchar(255)"/>
+            <column name="Address" type="varchar(255)"/>
+            <column name="City" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
 </databaseChangeLog>
