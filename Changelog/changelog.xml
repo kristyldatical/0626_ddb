@@ -173,4 +173,11 @@
             <column name="City" type="varchar(255)"/>
         </createTable>
     </changeSet>
+    <changeSet appdba:scriptChecksum="921cf4c59db9ac5fd6893a1c70622f70" author="kristyldatical" created="2018-07-05 14:16-0500" datical:origFileName="create_partner_function.sql" datical:origFilePath="function" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180705141635358_create_partner_function" labels="Step-Label-KG,create_partner_function.sql">
+        <storedlogic:createFunction catalogName="SOURCE_0626__CAT_1" functionName="FUNCTION4" path="function/20180705141635358_create_partner_function.sql" replaceIfExists="true" schemaName="SCHEMA_A"/>
+        <rollback>
+            <appdba:sqlcmd path="function/20180705141635358_create_partner_function-rollback.sql" removeOuts="First"/>
+        </rollback>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
