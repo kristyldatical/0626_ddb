@@ -180,4 +180,8 @@
         </rollback>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="6a2f4dbb26dfe552b7acb059b3e1ff66" author="kristyldatical" created="2018-07-06 13:19-0500" datical:origFileName="mssql_trigger - 0706.sql" datical:origFilePath="trigger" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="2018070613193547_mssql_trigger - 0706" labels="Step-Label-KG,mssql_trigger - 0706.sql">
+        <storedlogic:createTrigger catalogName="SOURCE_0626__CAT_2" dbms="mssql" disabled="false" path="trigger/2018070613193547_mssql_trigger - 0706.sql" replaceIfExists="true" schemaName="SCHEMA_1" tableName="Users_Cat2_S1" triggerName="TRIGGER_07066_1"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
