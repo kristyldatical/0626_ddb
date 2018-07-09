@@ -184,4 +184,8 @@
         <storedlogic:createTrigger catalogName="SOURCE_0626__CAT_2" dbms="mssql" disabled="false" path="trigger/2018070613193547_mssql_trigger - 0706.sql" replaceIfExists="true" schemaName="SCHEMA_1" tableName="Users_Cat2_S1" triggerName="TRIGGER_07066_1"/>
         <comment>committing</comment>
     </changeSet>
+    <changeSet appdba:scriptChecksum="015e6fbfff21c4887945e0afea89412e" author="kristyldatical" created="2018-07-09 07:12-0500" datical:origFileName="mssql_CAT1_CAT2_proc - 0709.sql" datical:origFilePath="procedure" datical:rerunnable="true" datical:version="1" datical:versionStrategy="DEPLOY_ALL" id="20180709071235359_mssql_CAT1_CAT2_proc - 0709" labels="Step-Label-KG,mssql_CAT1_CAT2_proc - 0709.sql">
+        <createProcedure catalogName="SOURCE_0626__CAT_2" path="procedure/20180709071235359_mssql_CAT1_CAT2_proc - 0709.sql" procedureName="PROC_CAT2_S2" replaceIfExists="true" schemaName="SCHEMA_2"/>
+        <comment>committing</comment>
+    </changeSet>
 </databaseChangeLog>
